@@ -3,6 +3,8 @@ A simple formation framework for Pixhawk(PX4) rotorcrafts with optitrack positio
 
 The software is developed under **Ubuntu 18.04** and **ROS melodic**
 
+The communication is achieved via UDP.
+
 # 1 Primity
 
 ## 1.1 Network Configuration
@@ -36,6 +38,17 @@ sudo apt-get install ros-melodic-vrpn
 ```
 
 # 3 Quick Start
+## 3.1 Transplant to your spercific system
+
+## 3.2 Center Ubuntu
+```
+./swarm.sh
+```
+Input number for command.
+## 3.3 Onboard Ubuntu
+```
+./single.sh
+```
 
 
 
