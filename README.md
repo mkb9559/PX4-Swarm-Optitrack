@@ -41,7 +41,7 @@ sudo apt-get install ros-melodic-vrpn
 
 # 3 Quick start
 ## 3.1 Transplant to your spercific system
-## 3.1.1 Modify target IP in swarm.cpp
+## 3.1.1 Modify UAV IPs in swarm.cpp
 ```
 
 ```
