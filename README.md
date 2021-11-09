@@ -30,4 +30,7 @@ For detial, refer http://docs.px4.io/master/zh/computer_vision/motion_capture.ht
 For Center and all of Onboard Ubuntu.
 
 - ROS melodic: http://wiki.ros.org/melodic/Installation/Ubuntu
-- 
+- VRPN
+```
+sudo apt-get install ros-melodic-vrpn
+```
