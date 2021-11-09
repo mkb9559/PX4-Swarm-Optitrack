@@ -7,7 +7,7 @@ The communication is achieved via UDP.
 
 # 1 Primity
 
-## 1.1 Network Configuration
+## 1.1 Network configuration
 All of devices are with static IP in a same WLAN.
 Here is our spercific configuration: 
 - Optitrack PC:  192.168.1.200
@@ -16,12 +16,12 @@ Here is our spercific configuration:
 - Onboard Ubuntu of UAV2: 192.168.1.12
 - ...
 
-## 1.2 Rigid Body Creation in Optitrack
+## 1.2 Rigid body creation in optitrack
 Set the z+ for the up direction of optitrack coordinate.
 
 Lay the head direction of UAV alone the x direction of optitrack coordinate.
 
-## 1.3 Parameter Setting for PX4
+## 1.3 Parameter setting for PX4
 - Set **EKF2_AID_MASK** to **24** (The latest QGC may fail to modify. Please use the old version of QGC)
 - Set **EKF2_HGT_MODE** to **VISION**
 
@@ -37,9 +37,19 @@ For Center and all of Onboard Ubuntu.
 sudo apt-get install ros-melodic-vrpn
 ```
 
-# 3 Quick Start
+# 3 Quick start
 ## 3.1 Transplant to your spercific system
+## 3.1.1 Modify target IP in swarm.cpp
+```
 
+```
+Change to your Onboard Ubuntu IPs and UAV ID.
+## 3.1.2 Distinguishment of different UAVs.
+In 
+```
+
+```
+Change to your Onboard Ubuntu IPs and UAV ID.
 ## 3.2 Center Ubuntu
 ```
 ./swarm.sh
@@ -49,6 +59,8 @@ Input number for command.
 ```
 ./single.sh
 ```
+
+# 4 Demo
 
 
 
