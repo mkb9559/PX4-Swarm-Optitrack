@@ -1,5 +1,6 @@
 # PX4-Swarm-Optitrack
-A simple formation framework for PX4 rotorcrafts with optitrack positioning.
+A simple formation framework for Pixhawk(PX4) rotorcrafts with optitrack positioning.
+
 The software is developed under **Ubuntu 18.04** and **ROS melodic**
 
 # Primity
@@ -13,4 +14,14 @@ Here is our spercific configuration:
 - Onboard Ubuntu of UAV2: 192.168.1.12
 - ...
 
+## Rigid Body Creation in Optitrack
+Set the z+ for the up direction of optitrack coordinate.
+
+Lay the head direction of UAV alone the x direction of optitrack coordinate.
+
+## Parameter Setting for PX4
+- Set **EKF2_AID_MASK** to **24** (The latest QGC may fail to modify. Please use the old version of QGC)
+- Set **EKF2_HGT_MODE** to **VISION**
+
+# Dependence
 
