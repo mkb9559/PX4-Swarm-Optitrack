@@ -23,5 +23,11 @@ Lay the head direction of UAV alone the x direction of optitrack coordinate.
 - Set **EKF2_AID_MASK** to **24** (The latest QGC may fail to modify. Please use the old version of QGC)
 - Set **EKF2_HGT_MODE** to **VISION**
 
-# Dependence
+For detial, refer http://docs.px4.io/master/zh/computer_vision/motion_capture.html
 
+
+# Dependence
+For Center and all of Onboard Ubuntu.
+
+- ROS melodic: http://wiki.ros.org/melodic/Installation/Ubuntu
+- 
