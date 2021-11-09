@@ -21,6 +21,8 @@ Set the z+ for the up direction of optitrack coordinate.
 
 Lay the head direction of UAV alone the x direction of optitrack coordinate.
 
+Created rigid body should be named "UAV1", "UAV2" ...  corresponding to IDs of UAVs. Or topics in source code need modify.
+
 ## 1.3 Parameter setting for PX4
 - Set **EKF2_AID_MASK** to **24** (The latest QGC may fail to modify. Please use the old version of QGC)
 - Set **EKF2_HGT_MODE** to **VISION**
