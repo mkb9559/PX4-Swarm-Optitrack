@@ -34,9 +34,9 @@ For detial, refer http://docs.px4.io/master/zh/computer_vision/motion_capture.ht
 For Center and all of Onboard Ubuntu.
 
 - ROS melodic: http://wiki.ros.org/melodic/Installation/Ubuntu
-- Install VRPN
+- Install VRPN and mavros
 ```
-sudo apt-get install ros-melodic-vrpn
+sudo apt-get install ros-melodic-vrpn ros-melodic-mavros
 ```
 
 # 3 Quick start
