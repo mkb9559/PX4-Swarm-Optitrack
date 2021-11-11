@@ -27,7 +27,7 @@ Created rigid body should be named "UAV1", "UAV2" ...  corresponding to IDs of U
 - Set **EKF2_AID_MASK** to **24** (The latest QGC may fail to modify. Please use the old version of QGC)
 - Set **EKF2_HGT_MODE** to **VISION**
 
-For detial, refer http://docs.px4.io/master/zh/computer_vision/motion_capture.html
+For detial, you may refer http://docs.px4.io/master/zh/computer_vision/motion_capture.html
 
 
 # 2 Dependence
@@ -44,7 +44,7 @@ sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
 wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
 sudo bash ./install_geographiclib_datasets.sh   
 ```
-For detial, you may refer to https://docs.px4.io/master/en/ros/mavros_installation.html.
+For detial, you may refer to https://docs.px4.io/master/en/ros/mavros_installation.html
 
 # 3 Quick start
 ## 3.1 Transplant to your spercific system
