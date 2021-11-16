@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+     <node pkg="px4_zxz" type="swarm_cmd" name="swarm_cmd" output="screen"> </node>
+
+</launch>
