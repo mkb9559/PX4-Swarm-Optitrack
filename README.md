@@ -4,6 +4,7 @@ A simple formation framework for Pixhawk(PX4) rotorcrafts with optitrack positio
 The software is developed under **Ubuntu 18.04** and **ROS melodic**
 
 The communication is achieved via UDP.
+![image](https://github.com/mkb9559/PX4-Swarm-Optitrack/blob/main/Screenshot.PNG)
 
 # 1 Primity
 
