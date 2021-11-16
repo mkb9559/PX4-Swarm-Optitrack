@@ -49,25 +49,28 @@ For detial, you may refer to https://docs.px4.io/master/en/ros/mavros_installati
 
 # 3 Quick start
 ## 3.1 Transplant to your spercific system
-- Modify UAV IPs in swarm.cpp
+- Modify optitrack IP and VRPN toptic names in launchs:
+UAV1_single.launch
+UAV2_single.launch
+...
+- Modify UAV IPs in swarm_cmd.cpp
 ```
-
+ new std::thread(&UdpServer,"192.168.1.11",12001,1);
+ new std::thread(&UdpServer,"192.168.1.12",12001,2);
+ ...
 ```
-Change to your Onboard Ubuntu IPs and UAV ID.
-- Distinguishment of different UAVs.
-In 
-```
-
-```
-Change to your Onboard Ubuntu IPs and UAV ID.
 ## 3.2 Center Ubuntu
 ```
-./swarm.sh
+source devel/setup.bash
+roslaunch px4_zxz swarm.launch
 ```
 Input number for command.
 ## 3.3 Onboard Ubuntu
+Launch corresponded launch, such as for UAV2:
 ```
-./single.sh
+source devel/setup.bash
+roslaunch px4_zxz UAV2_single.launch
+
 ```
 
 # 4 Demo
