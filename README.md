@@ -70,8 +70,22 @@ Launch corresponded launch, such as for UAV2:
 ```
 source devel/setup.bash
 roslaunch px4_zxz UAV2_single.launch
-
 ```
+SSH remote login from center Ubuntu may help you.
+## 3.4 Input cmd in center Ubuntu
+When the program used starts, please wait to ensure that the mavros is successfully connected to the PX4.
+
+- input  9 for takeoff
+- input 10 for Low speed in aim +x 
+- input 20 for Low speed in aim -x 
+- input 30 for Low speed in aim +y 
+- input 40 for Low speed in aim -y 
+- input 50 for Low speed in aim +z 
+- input 60 for Low speed in aim -z 
+- input  4 for land
+- input 99 for end
+
+
 
 # 4 Demo
 
