@@ -26,6 +26,7 @@ Created rigid body should be named "UAV1", "UAV2" ...  corresponding to IDs of U
 ## 1.3 Parameter setting for PX4
 - Set **EKF2_AID_MASK** to **24** (Only select **vision position fusion** and **vision yaw fusion**) (The latest QGC may fail to modify. Please use the old version of QGC)
 - Set **EKF2_HGT_MODE** to **VISION**
+- Make sure your mavlink port has been configured.
 
 For detial, you may refer http://docs.px4.io/master/zh/computer_vision/motion_capture.html
 
