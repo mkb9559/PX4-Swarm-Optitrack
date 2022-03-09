@@ -29,7 +29,7 @@ Created rigid body should be named "UAV1", "UAV2" ...  corresponding to IDs of U
 - Set **EKF2_HGT_MODE** to **VISION**
 - Make sure your mavlink port has been configured.
 
-For detial, you may refer http://docs.px4.io/master/zh/computer_vision/motion_capture.html
+For detial, you may refer to http://docs.px4.io/master/zh/computer_vision/motion_capture.html
 
 
 # 2 Dependence
