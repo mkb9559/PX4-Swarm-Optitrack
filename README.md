@@ -60,6 +60,7 @@ UAV2_single.launch
  new std::thread(&UdpServer,"192.168.1.12",12001,2);
  ...
 ```
+- catkin_make the source codes.
 ## 3.2 Center Ubuntu
 ```
 source devel/setup.bash
