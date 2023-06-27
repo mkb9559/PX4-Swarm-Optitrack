@@ -12,7 +12,7 @@ The communication is achieved via UDP.
 All of devices are with static IP in a same WLAN.
 Here is our spercific configuration: 
 - Optitrack PC:  192.168.1.200
-- Center Ubuntu: 102.168.1.41
+- Center Ubuntu: 192.168.1.41
 - Onboard Ubuntu of UAV1: 192.168.1.11
 - Onboard Ubuntu of UAV2: 192.168.1.12
 - ...
